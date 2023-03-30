@@ -6,7 +6,7 @@
 
     <groupId>com.diffcoder</groupId>
     <artifactId>how-to-become-rich</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
 
     <name>how-to-become-rich</name>
 
@@ -25,7 +25,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>github-rich-repo</id>
+            <name>The Maven Repository on Github</name>
+            <url>https://jorry2008.github.io/how-to-become-rich/maven-repo/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
+        <dependency>
+            <groupId>com.diffcoder</groupId>
+            <artifactId>how-to-become-rich</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
