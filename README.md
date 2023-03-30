@@ -2,8 +2,6 @@
 
 This is a tutorial about how to publish a Maven artifact to GitHub:
 
-https://www.liaoxuefeng.com/wiki/1252599548343744/1347981037010977
-
 ### Usage
 
 Add the following to `pom.xml`:
@@ -17,15 +15,15 @@ Add the following to `pom.xml`:
         <repository>
             <id>github-rich-repo</id>
             <name>The Rich Repository on Github</name>
-            <url>https://michaelliao.github.io/how-to-become-rich/maven-repo/</url>
+            <url>https://jorry2008.github.io/how-to-become-rich/maven-repo/</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>com.itranswarp.rich</groupId>
+            <groupId>com.diffcoder</groupId>
             <artifactId>how-to-become-rich</artifactId>
-            <version>1.0.0</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
